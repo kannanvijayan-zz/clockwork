@@ -179,7 +179,7 @@ class LinearDescriptor extends GeneDescriptor {
     constructor(gene) {
         // ASSERT: gene instanceof LinearGene
         super(gene);
-        this.actf = activation.ByName[gene.actfName];
+        this.actf = activation[gene.actfName];
         this.numWeightVars = 1; // One var for bias.
         this.numStateVars = 1;
 

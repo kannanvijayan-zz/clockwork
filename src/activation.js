@@ -33,6 +33,4 @@ const ByName = {};
     Object.freeze(ByName);
 })();
 
-module.exports = {
-    ByName
-};
+module.exports = ByName;
