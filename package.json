@@ -1,0 +1,15 @@
+{
+  "name": "clockwork",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint app"
+  },
+  "author": "Kannan Vijayan <kannan@vijayan.ca>",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "eslint": "^4.16.0"
+  },
+  "dependencies": {}
+}
